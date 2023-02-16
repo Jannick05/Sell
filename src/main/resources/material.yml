@@ -3,3 +3,6 @@ Sellables:
     price: 100
   GOLD_INGOT:
     price: 50
+  INK_SACK:
+    price: 75
+    data: 1 #Rød dye, brug /itemdb for at se data valuen.

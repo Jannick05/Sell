@@ -31,10 +31,10 @@ public class Sell implements CommandExecutor {
                 } else {
                     player.sendMessage(Color.getColored(configYML.getString("messages.reload_deny")));
                 }
-                return true;
             } else {
                 player.sendMessage(Color.getColored(configYML.getString("messages.argument_error")));
             }
+            return true;
         }
         int multiplier = Multiplier.getMultiplier(player);
         int rankMultiplier = Multiplier.getRankMultiplier(player);
