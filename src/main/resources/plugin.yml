@@ -1,0 +1,11 @@
+name: Sell
+version: '${project.version}'
+main: dk.nydt.sell.Sell
+api-version: 1.8
+softdepend: [ Vault, Essentials ]
+authors: [ Nydt ]
+description: Sell command with rank, global and normal multiplier
+website: mcstore.dk
+commands:
+  sell:
+    description: sells stuff

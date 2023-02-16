@@ -1,0 +1,5 @@
+Sellables:
+  DIAMOND:
+    price: 100
+  GOLD_INGOT:
+    price: 50

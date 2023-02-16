@@ -1,0 +1,16 @@
+Global Multiplier: 0
+messages:
+  reload_success: "&aReloaded successfully!"
+  reload_deny: "&cIngen adgang til at reload!"
+  argument_error: "&cArgument findes ikke!"
+  sell_success:
+    - "&lSELL!"
+    - "&7"
+    - "&cSolgt for: %price%"
+    - "&eMultiplier: %multiplier%"
+    - "&7"
+    - "&lSELL!"
+  sell_fail: "&cDu har ikke noget at sælge!"
+
+permissions:
+  reload: sell.reload
